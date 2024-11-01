@@ -12,9 +12,9 @@ import math
 def read_csv(filename):
     with open(filename, 'r') as f:
         reader = csv.reader(f)
-        list = list(reader)
-    filenames = [a[0] for a in list[1:]]
-    labels = [a[1] for a in list[1:]]
+        csv_list = list(reader)
+    filenames = [a[0] for a in csv_list[1:]]
+    labels = [a[1] for a in csv_list[1:]]
     return filenames, labels
 
 
