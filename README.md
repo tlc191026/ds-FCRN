@@ -1,1 +1,2 @@
 # ds-FCRN
+The ds-FCRN model is an improvement and optimization based on the SFCN model, with key features including skip connection modules, a dual-stream architecture, and a three-dimensional extended Global-local Transformer module. The main.py file contains the core model code, model.py includes several baseline models, and tool.py incorporates modules for data partitioning, data processing, and other utilities.
